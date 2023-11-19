@@ -40,10 +40,10 @@ a {
 .head {
     padding-top: 80px;
     padding-bottom: 80px;
+    grid-area: head;
 }
 
 .head_container {
-    grid-area: head;
     display: grid;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -248,12 +248,12 @@ a {
 }
 
 .foot {
+    grid-area: foot;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .foot_container {
-    grid-area: foot;
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
@@ -295,6 +295,7 @@ a {
 }
 
 .main_res {
+    grid-area: main;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 500px 500px;
@@ -383,6 +384,7 @@ a {
 }
 
 .main_des {
+    grid-area: main;
     display: grid;
     gap: 20px;
     font-family: 'Roboto', sans-serif;
